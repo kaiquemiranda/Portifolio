@@ -5,6 +5,10 @@
   html{
     scroll-behavior: smooth;
   }
+
+body {
+  font-family: sans-serif;
+}
   
   /* navbar */
   .navbar{
@@ -103,8 +107,9 @@
   /* education section */
   #education{
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     background-color: rgb(17, 17, 17);
+    padding-bottom: 50px;
   }
   #education h1{
     margin: 60px;
@@ -114,13 +119,15 @@
     grid-template-columns: auto auto;
     padding-left: 30px;
   }
-  .box{
-    height: 200px;
-    width: 400px;
+  .box{ 
+    display: inline-block;
+    text-align: center;
+    height: 150px;
+    width: 300px;
     background-color: rgba(48, 47, 47, 0.979);
     border-radius: 20px;
     margin: 10px;
-    padding: 20px;
+    padding: 50px;
   }
   .box h2{
     color: yellow;
@@ -129,6 +136,9 @@
     
   }
   .box p{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
     color: white;
     font-size: 1.1rem;
   }
@@ -153,6 +163,7 @@
     width: 500px;
     height: 400px;
     padding: 0 30px;
+    border-radius: 20%;
   }
   .name{
     padding: 10px;
