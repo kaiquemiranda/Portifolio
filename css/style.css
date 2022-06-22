@@ -103,6 +103,10 @@ body {
   .gallery img:hover{
     background-color: rgba(0, 0, 0, 0.829);
     cursor: pointer;
+    width: 300px;
+    height: 440px;
+    padding: 10px;
+    margin: 10px;
   }
   /* education section */
   #education{
