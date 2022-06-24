@@ -202,11 +202,14 @@ body {
     width: 40%;
     border: none;
     outline: none;
-    border-radius: 25px;
+    border-radius: 20px;
   }
+  
+
   #message{
     margin: 15px;
     pad: 10px;
+    padding: 10px;
     border-radius: 20px;
   }
   #submit{
